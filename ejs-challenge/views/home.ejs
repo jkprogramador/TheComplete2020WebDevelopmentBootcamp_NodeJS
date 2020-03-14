@@ -11,8 +11,8 @@
   <%= post.title %>
 </h2>
 <p>
-  <%= post.body.slice(0, 100) + ' ...' %>
-  <a href="/posts/<%= post.permalink %>">Read more</a>
+  <%= post.content.slice(0, 100) + ' ...' %>
+  <a href="/posts/<%= post._id %>">Read more</a>
 </p>
 <% }); %>
 
